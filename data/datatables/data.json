@@ -1,0 +1,26 @@
+[
+ {
+   "name": "Tiger Nixon",
+   "title": "System Architect",
+   "location": "Edinburgh",
+   "score": 5421,
+   "date": "2011/04/25",
+   "salary": "$320,800"
+ },
+ {
+   "name": "Garrett Winters",
+   "title": "Accountant",
+   "location": "Tokyo",
+   "score": 8422,
+   "date": "2011/07/25",
+   "salary": "$170,750"
+ },
+ {
+   "name": "Ashton Cox",
+   "title": "Junior Technical Author",
+   "location": "San Francisco",
+   "score": 1562,
+   "date": "2009/01/12",
+   "salary": "$86,000"
+ }
+]
