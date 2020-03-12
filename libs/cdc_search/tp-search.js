@@ -78,7 +78,7 @@
 		var solrRoot = window.location.protocol + '//' + solrDomain + '/srch';
 
 		var config = {
-			defaultPageSize: 20,
+			defaultPageSize: 10,
 			defaultBestBetsPageSize: 3,
 			defaultAutoSuggest: 5,
 			defaultPagingChunk: 10,
@@ -893,8 +893,6 @@
              * @param {Object} [c]
              */
 			init: function( c ) {
-				alert('')
-
 				if ( c && 'object' === typeof  c  ) {
 					$.extend( config, c );
 				}
