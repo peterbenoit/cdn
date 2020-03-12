@@ -13,7 +13,6 @@
 
 		var searchReturn = {
 			init: function( config ) {
-				// WARN: this should NOT be firing yet another document.ready event handler
 				$( document ).ready( function() {
 					$( '.dropdown-submenu .dropdown-toggle' ).on( 'click', function( e ) {
 						$( this ).next( '.dropdown-menu' ).toggle();
@@ -37,13 +36,6 @@
 						$( this ).parents( 'form' ).first().submit();
 					} );
 				} );
-
-				// hide search dropdown on events
-				//$( window ).on( 'resize orientationchange', window.CDC.Common.debounce( function() {
-				//if ( $( '.dropdown-menu-small-search' ).hasClass( 'show' ) ) {
-				//$( '.dropdown-menu-small-search' ).dropdown( 'toggle' );
-				//}
-				//}, 250 ) );
 				return true;
 			}
 		};
@@ -901,6 +893,7 @@
              * @param {Object} [c]
              */
 			init: function( c ) {
+				alert('')
 
 				if ( c && 'object' === typeof  c  ) {
 					$.extend( config, c );
